@@ -5,6 +5,12 @@
     box-sizing: border-box;
 }
 
+.nothing-you-could-do-regular {
+    font-family: "Nothing You Could Do", cursive;
+    font-weight: 400;
+    font-style: normal;
+}  
+
 body {
     font-family: 'EB Garamond', serif;
     color: #e0e0e0;
@@ -18,7 +24,7 @@ body {
 
 /* Centered Main Content */
 main {
-    max-width: 800px;
+    max-width: 60%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -35,11 +41,18 @@ h1 {
     text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.1);
     opacity: 0;
     animation: fadeIn 2s ease-in forwards;
+    font-family: "Nothing You Could Do", cursive;
+}
+
+h2 {
+    font-size: 2.3rem;
+    margin: 25px 0 25px;
+    font-family: "Nothing You Could Do", cursive;
 }
 
 /* Main Content Box */
 .content {
-    background-color: #2a2a2a;
+    background-color: #424242;
     padding: 1.5rem;
     border-radius: 8px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
@@ -49,10 +62,23 @@ h1 {
 }
 
 p {
-    font-size: 1.4rem;          /* Increase font size */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    font-size: 1.5rem;          /* Increase font size */
     line-height: 1.8;           /* Increase line spacing */
-    color: #d9d9d9;             /* Light gray text color */
-    margin: 0;
+    color: #f3f3f3;             /* Light gray text color */
+    margin: 0 0 15px 0;
+}
+
+p:last-of-type {
+    text-align: end;
+    margin-right: 15px;
+    font-family: "Nothing You Could Do", cursive;
+}
+
+p span {
+
+    font-style: italic;
 }
 
 /* Fade-in Animation */
@@ -78,6 +104,7 @@ p {
     background-color: #2a2a2a;
     position: relative;
     animation: fadeIn 2s ease-in forwards;
+    display: flex;
 }
 
 /* Default Image Styling */
@@ -115,4 +142,3 @@ p {
 .image-container .hover-image {
     transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
-
