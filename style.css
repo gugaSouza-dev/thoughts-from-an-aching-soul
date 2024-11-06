@@ -61,6 +61,12 @@ h2 {
     animation-delay: 1s;
 }
 
+.content a {
+    text-decoration: none;
+    color: #2AAA8A;
+    font-size: 1.5rem;
+}
+
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: justify;
@@ -84,6 +90,10 @@ p span {
 
 p .bold {
     font-weight: bold;
+}
+
+p .esconder_nome {
+    background-color: #f3f3f3;
 }
 
 /* Fade-in Animation */
