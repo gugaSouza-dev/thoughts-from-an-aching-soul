@@ -74,11 +74,16 @@ p:last-of-type {
     text-align: end;
     margin-right: 15px;
     font-family: "Nothing You Could Do", cursive;
+    font-size: 1.7rem;          /* Increase font size */
 }
 
 p span {
 
     font-style: italic;
+}
+
+p .bold {
+    font-weight: bold;
 }
 
 /* Fade-in Animation */
