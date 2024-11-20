@@ -101,6 +101,10 @@ p .esconder_nome {
     background-color: #f3f3f3;
 }
 
+.ps, .ps a {
+    font-size: 1rem;
+}
+
 /* Fade-in Animation */
 @keyframes fadeIn {
     from {
